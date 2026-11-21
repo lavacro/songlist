@@ -48,8 +48,8 @@ export default class Print {
 				let leader = tuple.leader == null ? '' : `<span class='fade'>&nbsp;&nbsp;. . . ${tuple.leader}</span>`;
 				let aka = tuple.song.alias == null ? '' : `... <span class="aka">&laquo;${tuple.song.alias}&raquo;</span>`;
 				let extra = '';
-				if(tuple.memo != null) {
-					extra = ` <span class='memo'>[${tuple.memo}]</span>`;
+				if(tuple.notes != null) {
+					extra = ` <span class='memo'>[${tuple.notes}]</span>`;
 				}
 				td = document.createElement('td');
 				td.setAttribute('class', 'list');
