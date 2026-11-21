@@ -25,7 +25,7 @@ dependencies {
 	implementation 'org.postgresql:postgresql:42.7.14'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:3.2.1'
 
-	compileOnly 'org.projectlombok:lombok:1.18.42'
+	compileOnly 'org.projectlombok:lombok:1.18.48'
 	annotationProcessor 'org.projectlombok:lombok'
 }
 
